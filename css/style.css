@@ -1,0 +1,61 @@
+/* .background-image {
+    background-image: url("../img/autumn2.jpg")
+    height: 600px;
+    width: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.bg-image {
+    margin: 30px;
+    width: 100%;
+    position: relative;
+}
+.imagebox {
+    width: 1170px;
+    position: relative;
+}
+.leaf-2 {
+    width: 50px;
+    position: absolute;
+    float: left;
+    margin-left: 100px;
+    top: 30%;
+}
+.leaf-3 {
+    width: 30px;
+    position: absolute;
+    float: left;
+    margin-left: 200px;
+    top: 40%;
+}
+.leaf-4 {
+    width: 50px;
+    position: absolute;
+    float: left;
+    margin-left: 400px;
+    top: 20%;
+}
+.leaf-5 {
+    width: 50px;
+    position: absolute;
+    float: left;
+    margin-left: 500px;
+    top: 30%;
+}
+.leaf-6 {
+    width: 50px;
+    position: absolute;
+    float: left;
+    margin-left: 700px;
+    top: 20%;
+}
+.leaf-7 {
+    width: 50px;
+    position: absolute;
+    float: left;
+    margin-left: 800px;
+    top: 40%;
+}
+.clear {
+    clear: both;
+}
