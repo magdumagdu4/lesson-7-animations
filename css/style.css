@@ -13,49 +13,74 @@
 .imagebox {
     width: 1170px;
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .leaf-2 {
-    width: 50px;
+    width: 40px;
     position: absolute;
     float: left;
     margin-left: 100px;
-    top: 30%;
+    top: 200px;
+    animation: leaf-2animation 5s infinite;
 }
 .leaf-3 {
     width: 30px;
     position: absolute;
     float: left;
     margin-left: 200px;
-    top: 40%;
+    top: 150px;
+    animation: leaf-2animation 10s infinite;
 }
 .leaf-4 {
-    width: 50px;
+    width: 30px;
     position: absolute;
     float: left;
     margin-left: 400px;
-    top: 20%;
+    top: 250px;
+    animation: leaf-2animation 8s infinite;
 }
 .leaf-5 {
-    width: 50px;
+    width: 30px;
     position: absolute;
     float: left;
     margin-left: 500px;
-    top: 30%;
+    top: 180px;
+    animation: leaf-2animation 11s infinite;
 }
 .leaf-6 {
     width: 50px;
     position: absolute;
     float: left;
     margin-left: 700px;
-    top: 20%;
+    top: 100px;
+    animation: leaf-2animation 9s infinite;
 }
 .leaf-7 {
-    width: 50px;
+    width: 30px;
     position: absolute;
     float: left;
     margin-left: 800px;
-    top: 40%;
+    top: 50px;
+    animation: leaf-2animation 10s infinite;
 }
 .clear {
     clear: both;
+}
+/* @keyframes: leaf-2animation {
+    0% {top: 200px; transform: rotate(0deg)}
+    20% {top: 300px; transform: rotate(45deg)}
+    40% {top: 400px; transform: rotate(90deg)}
+    60% {top: 500px; transform: rotate(130deg)}
+    80% {top: 600px; transform: rotate(200deg)}
+    100% {top: 700px; transform: rotate(300deg)}
+} */
+@keyframes: leaf-2animation {
+    0% {transform: translateY(top: 200px)}
+    20% {transform: translateY(top: 300px)}
+    40% {transform: translateY(top: 400px)}
+    60% {transform: translateY(top: 500px)}
+    80% {transform: translateY(top: 600px)}
+    100% {transform: translateY(top: 700px)}
 }
